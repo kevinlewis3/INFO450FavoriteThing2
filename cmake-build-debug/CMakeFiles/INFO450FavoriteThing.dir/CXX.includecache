@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/Favorites.h
+iostream
+-
+string
+-
+
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/FavoritesList.h
+iostream
+-
+string
+-
+Favorites.h
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/Favorites.h
+
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/main.cpp
+iostream
+-
+string
+-
+Favorites.h
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/Favorites.h
+FavoritesList.h
+/Users/klewis/Documents/GitHub/INFO450FavoriteThing2/FavoritesList.h
+
