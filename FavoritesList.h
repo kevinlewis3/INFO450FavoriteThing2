@@ -16,6 +16,8 @@ public:
     void showFavorites();
     void readFromFile(string filename);
     void saveFile(string filename);
+    //Extra credit - to be implemented
+    //Favorites **beers = new Favorites*[100];
     ~FavoritesList();
 };
 

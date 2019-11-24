@@ -59,6 +59,13 @@ void FavoritesList::saveFile(string filename)
         outputFile << beers[i].getPrice() << "|";
         outputFile << beers[i].getBeerType() << endl;
 
+        //Extra Credit - to be implemented
+//        outputFile << beers[i]-> getName() << "|";
+//        outputFile << beers[i]-> getLocation() << "|";
+//        outputFile << beers[i]-> getAlcContent() << "|";
+//        outputFile << beers[i]-> getPrice() << "|";
+//        outputFile << beers[i]-> getBeerType() << endl;
+
     }
     outputFile.close();
     //return 0;
@@ -92,7 +99,12 @@ void FavoritesList::readFromFile(string filename) {
             alcContent = stoi(inputString);
 
 
-
+            //Extra Credit - to be implemented.
+//            beers[numFavorites]-> setName(name);
+//            beers[numFavorites]-> setLocation(location);
+//            beers[numFavorites]-> setBeerType(beerType);
+//            beers[numFavorites]-> setAlcContent(alcContent);
+//            beers[numFavorites]-> setPrice(price);
 
             beers[numFavorites].setName(name);
             beers[numFavorites].setLocation(location);
